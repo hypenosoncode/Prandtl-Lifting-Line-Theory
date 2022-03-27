@@ -40,6 +40,7 @@ mu = alpha_sonsuz * c / (4 * b)
 mu_hesaplama_2 = mu * (np.array(alpha_hucum) - alpha_zero_lift)
 mu_hesaplama_2_rad = np.deg2rad(mu_hesaplama_2)
 
+# FORMÜL KISMI
 teta_grafik = []
 for i in range(1, 2 * N + 1, 2):
     teta_grafik_iter = np.sin(i * theta) * (1 + (mu * i) / (np.sin(list(theta))))
@@ -65,21 +66,24 @@ iter9 = (np.sin((19) * theta)) * new_matrix[9] * alan_deneme_sayilari
 iter10 = (np.sin((21) * theta)) * new_matrix[10] * alan_deneme_sayilari
 
 # TAŞIMA KATSAYISI HESABI VE DEĞERLERİN OKUNABİLMESİ İÇİN MATRİSE ATANMASI
-CL_grafik = iter0 + iter1 + iter2 + iter3 + iter4 + iter5 + iter6 + iter7 + iter8 + iter9 + iter10
-CL_hesap = (math.pi * AR * new_matrix[0])
+CL_grafik = iter0 + iter1 + iter2 + iter3 + iter4 + iter5 + iter6 + iter7 + iter8 + iter9 + iter10 # Grafik 'e bastılacak değerler
+CL_hesap = (math.pi * AR * new_matrix[0]) # Gerçek hesaplanan CL değeri
 
 rho = (2 * (new_matrix[1] / new_matrix[0])) + (3 * (new_matrix[2] / new_matrix[1])) + (4 * (new_matrix[3] / new_matrix[2])) + (5 * (new_matrix[4] / new_matrix[3])) + (6 * (new_matrix[5] / new_matrix[4])) + (7 * (new_matrix[6] / new_matrix[5]) + (8 * (new_matrix[7] / new_matrix[6]))) + (9 * (new_matrix[8] / new_matrix[7])) + (10 * (new_matrix[9] / new_matrix[8])) + (11 * (new_matrix[10] / new_matrix[9]))
 
-CL_induklenmis_grafik = CL_grafik ** 2 / (math.pi * AR) * rho
-CL_induklenmis_hesap = CL_hesap ** 2 / (math.pi * AR) * rho
+CL_induklenmis_grafik = CL_grafik ** 2 / (math.pi * AR) * rho # Grafik 'e bastılacak değerler
+CL_induklenmis_hesap = CL_hesap ** 2 / (math.pi * AR) * rho # Gerçek hesaplanan CL_indüklenmiş değeri
 
+# GRAFİK OLUŞTURMA ALANI
 CL1_dizi = np.append(0, CL_grafik)
 CL_induklenmis_dizi = np.append(0, CL_induklenmis_grafik)
 y_eksen = [b / 2, k[0], k[1], k[2], k[3], k[4], k[5], k[6], k[7], k[8], k[9], k[10]]
 
+# HESAPLANAN DEĞERLERİ BASTIRMA ALANI
 print("Tasima Katsayisi: ", CL_hesap)
-print("Induklenmis Surukleme Katsayisi: ", np.mean(CL_induklenmis_hesap))
+print("Induklenmis Surukleme Katsayisi: ", CL_induklenmis_hesap)
 
+# GRAFİK BASTIRMA ALANI
 fig = plt.figure("AERODİNAMİK ÖDEVİ [12.GRUP] CL")
 plt.plot(y_eksen, CL1_dizi, marker="o")
 plt.title("NACA 65(2)-215")
