@@ -1,4 +1,4 @@
-# PRANDDTL LIFTING LINE THEORY WITH PYTHON
+# PRANDTL LIFTING LINE THEORY WITH PYTHON
 AERODİNAMİK-2 ÖDEVİ / Aerodynamics-2 Assignment
 
 ![cikti](https://user-images.githubusercontent.com/74931027/160299218-fc7263f1-0c7e-4ad6-ba04-0a057a84d586.png)
