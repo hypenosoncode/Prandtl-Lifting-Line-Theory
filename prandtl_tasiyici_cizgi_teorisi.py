@@ -66,7 +66,7 @@ iter9 = (np.sin((19) * theta)) * new_matrix[9] * alan_deneme_sayilari
 iter10 = (np.sin((21) * theta)) * new_matrix[10] * alan_deneme_sayilari
 
 # TAŞIMA KATSAYISI HESABI VE DEĞERLERİN OKUNABİLMESİ İÇİN MATRİSE ATANMASI
-CL_grafik = iter0 + iter1 + iter2 + iter3 + iter4 + iter5 + iter6 + iter7 + iter8 + iter9 + iter10 # Grafik 'e bastılacak değerler
+CL_grafik = iter0 + iter1 + iter2 + iter3 + iter4 + iter5 + iter6 + iter7 + iter8 + iter9 + iter10 # Grafik 'e bastırılacak değerler
 CL_hesap = (math.pi * AR * new_matrix[0]) # Gerçek hesaplanan CL değeri
 
 rho = (2 * (new_matrix[1] / new_matrix[0])) + (3 * (new_matrix[2] / new_matrix[1])) + (4 * (new_matrix[3] / new_matrix[2])) + (5 * (new_matrix[4] / new_matrix[3])) + (6 * (new_matrix[5] / new_matrix[4])) + (7 * (new_matrix[6] / new_matrix[5]) + (8 * (new_matrix[7] / new_matrix[6]))) + (9 * (new_matrix[8] / new_matrix[7])) + (10 * (new_matrix[9] / new_matrix[8])) + (11 * (new_matrix[10] / new_matrix[9]))
