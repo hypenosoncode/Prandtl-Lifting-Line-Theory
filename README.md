@@ -4,8 +4,8 @@
 Bu projede Prandtl Modeli kullanılarak kanat analizi yapılmıştır. / In this project, wing analysis was performed using the Prandtl Model.
 
 # PROGRAM ÇIKTILARI - PROGRAM OUTCOMES
-![CLL](https://user-images.githubusercontent.com/74931027/162851203-e7b30706-d297-4d75-a9e4-68eef94424e8.png)
-![graph_2](https://user-images.githubusercontent.com/74931027/162849803-ca001674-31cb-4def-b12a-0c80860630a2.png)
+![111](https://user-images.githubusercontent.com/74931027/162851625-26ac1546-cd83-4d56-9477-d459783e7cbc.png)
+![222](https://user-images.githubusercontent.com/74931027/162851631-3bee5f8f-d32b-4fb6-8054-4259aac576ba.png)
 
 # KULLANILAN DENKLEMLER - EQUATIONS USED
 ![theta](https://user-images.githubusercontent.com/74931027/162850848-b76e5b35-7479-491d-b108-960f0369fde2.png)
