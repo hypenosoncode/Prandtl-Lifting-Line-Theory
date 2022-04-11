@@ -1,5 +1,6 @@
 # PRANDTL TAŞIYICI ÇİZGİ MODELİ - PRANDTL LIFTING LINE MODEL WITH PYTHON
 **---AERODİNAMİK-2 ÖDEVİ / AERODYNAMICS-2 ASSIGNMENT---**
+
 Bu projede Prandtl Modeli kullanılarak kanat analizi yapılmıştır. / In this project, wing analysis was performed using the Prandtl Model.
 
 # PROGRAM ÇIKTILARI - PROGRAM OUTCOMES
