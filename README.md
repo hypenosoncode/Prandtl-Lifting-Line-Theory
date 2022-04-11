@@ -8,9 +8,9 @@ Bu projede Prandtl Modeli kullanılarak kanat analizi yapılmıştır. / In this
 ![222](https://user-images.githubusercontent.com/74931027/162851631-3bee5f8f-d32b-4fb6-8054-4259aac576ba.png)
 
 # KULLANILAN DENKLEMLER - EQUATIONS USED
+![denk1](https://user-images.githubusercontent.com/74931027/162850866-2687fb32-cf55-47e1-b935-74e8e2298f69.png)
 ![theta](https://user-images.githubusercontent.com/74931027/162850848-b76e5b35-7479-491d-b108-960f0369fde2.png)
 ![mu](https://user-images.githubusercontent.com/74931027/162850851-d8f80151-a429-42ae-8b78-b91c789e6198.png)
-![denk1](https://user-images.githubusercontent.com/74931027/162850866-2687fb32-cf55-47e1-b935-74e8e2298f69.png)
 ![rho](https://user-images.githubusercontent.com/74931027/162850883-7ed3fa86-b7c1-4bc0-b1f7-7966dc822a8e.png)
 ![CL](https://user-images.githubusercontent.com/74931027/162850825-05c53f0b-b517-40dc-aa71-734232390ecd.png)
 ![CDi](https://user-images.githubusercontent.com/74931027/162850833-8620dc69-4993-4814-ba4b-26e076df5d59.png)
