@@ -64,7 +64,7 @@ for i in range(1, 10):
     general_rho = general_rho + rho
 
 CL_calculation = (math.pi * AR * answer_list[0]) # Gerçek hesaplanan CL değeri - Actual calculated CL value
-CDi_induced_calculation = CL_calculation ** 2 / (math.pi * AR) * general_rho # Gerçek hesaplanan CL indüklenmiş değeri. - Actual calculated CL induced value.
+CDi_induced_calculation = CL_calculation ** 2 / (math.pi * AR) * (1 + general_rho) # Gerçek hesaplanan CL indüklenmiş değeri. - Actual calculated CL induced value.
 CL_induced_graph = general_iter ** 2 / (math.pi * AR) * general_rho # Grafik 'e bastılacak değerler. - Values to print to chart
 
 # HESAPLANAN DEĞERLERİ BASTIRMA ALANI - SUPPRESSING THE CALCULATED VALUES AREA
