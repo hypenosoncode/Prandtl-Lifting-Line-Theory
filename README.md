@@ -19,6 +19,7 @@ Bu projede Prandtl Modeli kullanılarak kanat analizi yapılmıştır. / In this
 
 # GEREKLİ KÜTÜPHANELER
 ![libraries](https://user-images.githubusercontent.com/74931027/162850102-1b8dbd27-3571-4d19-a895-db03640d41f6.png)
+
 Kütüphane kurulumu için terminale, - To install the library, enter the terminal,
 -> pip install numpy
 -> pip install matplotlib
