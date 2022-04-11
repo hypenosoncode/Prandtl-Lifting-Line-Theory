@@ -6,7 +6,6 @@ Bu projede Prandtl Modeli kullanılarak kanat analizi yapılmıştır. / In this
 # PROGRAM ÇIKTILARI - PROGRAM OUTCOMES
 ![CLL](https://user-images.githubusercontent.com/74931027/162851203-e7b30706-d297-4d75-a9e4-68eef94424e8.png)
 ![graph_2](https://user-images.githubusercontent.com/74931027/162849803-ca001674-31cb-4def-b12a-0c80860630a2.png)
-![graph_2](https://user-images.githubusercontent.com/74931027/162849817-e7dc3902-221e-4969-b010-684dd7da7782.png)
 
 # KULLANILAN DENKLEMLER - EQUATIONS USED
 ![theta](https://user-images.githubusercontent.com/74931027/162850848-b76e5b35-7479-491d-b108-960f0369fde2.png)
