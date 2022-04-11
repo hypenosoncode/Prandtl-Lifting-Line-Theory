@@ -23,6 +23,7 @@ Bu projede Prandtl Modeli kullanılarak kanat analizi yapılmıştır. / In this
 Kütüphane kurulumu için terminale, - To install the library, enter the terminal,
 
 -> pip install numpy
+
 -> pip install matplotlib
 
 yazarsanız kütüphaneler otomatik olarak inmeye başlayacaktır. İndikten sonra derleyiciyi yeniden başlatın. / If you type, the libraries will start downloading automatically. Restart the compiler after downloading.
