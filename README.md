@@ -29,7 +29,7 @@ Kütüphane kurulumu için terminale, / To install the library, enter the termin
 
 yazarsanız kütüphaneler otomatik olarak inmeye başlayacaktır. İndikten sonra derleyiciyi yeniden başlatın. / If you type, the libraries will start downloading automatically. Restart the compiler after downloading.
 
-# FAYDASI OLMASI DİLEĞİMLE. İYİ ÇALIŞMALAR...
+# FAYDASI OLMASI DİLEĞİMLE. İYİ ÇALIŞMALAR... - I WISH IT USEFUL. I WISH YOU GOOD WORK...
 **İSMAİL SELÇUK ÇINAR / Electrical and Electronics & Aeronautical Engineer**
 
 📧 &nbsp;If you have any problems you can send me an email at cinarismailselcuk@gmail.com I will try to answer as soon as possible.
