@@ -19,17 +19,17 @@ import matplotlib.pylab as plt
 
 # KANAT DEĞERLERİ - WING VALUES
 N = 11 # İstasyon Sayısı - Number of Stations
-S = 20.67 # Kanat Alanı [m^2] - Wing Area
+S = 20.67 # Kanat Alanı - Wing Area [m²]
 AR = 9.08 # Açıklık Oranı - Aspect Ratio
 TR = 0.80 # Kök Oranı - Taper Ratio
-alpha_angle_of_attack = 10.0 # Hücum Açısı [derece] - Twist Angle
-alpha_infinity = 5.98 # Taşıma Eğrisi Eğimi [derece] - Lift Curve Slope
-alpha_zero_lift = -1.250 # Sıfır Taşıma Açısı [derece] - Zero Lift Angle of Attack
+alpha_angle_of_attack = 10.0 # Hücum Açısı [derece] - Twist Angle [degree]
+alpha_infinity = 5.98 # Taşıma Eğrisi Eğimi [derece] - Lift Curve Slope [degree]
+alpha_zero_lift = -1.250 # Sıfır Taşıma Açısı [derece] - Zero Lift Angle of Attack [degree]
 
 # HESAPLAMALAR - CALCULATIONS
-b = math.sqrt(AR * S) # Kanat Açıklığı [m] - Wing Span
-MAC = S / b # Ortalama Veter Uzunluğu [m] - Mean Aerodynamic Chord
-root_chord = (1.5 * (1 + TR) * MAC) / (1 + TR + TR ** 2)  # Kök Kanat Uzunluğu [m] - Root Chord
+b = math.sqrt(AR * S) # Kanat Açıklığı - Wing Span [m]
+MAC = S / b # Ortalama Veter Uzunluğu - Mean Aerodynamic Chord [m]
+root_chord = (1.5 * (1 + TR) * MAC) / (1 + TR + TR ** 2)  # Kök Kanat Uzunluğu - Root Chord [m]
 theta = np.linspace((math.pi / (2 * N)), (math.pi / 2), N) # π/2N den π/2 ye kadar olan bir dizi oluşturuldu. - A sequence from π/2N to π/2 is created.
 k = (b / 2) * np.cos(theta)
 c = root_chord * (1 - (1 - TR) * np.cos(theta))
